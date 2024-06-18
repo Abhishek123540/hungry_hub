@@ -9,11 +9,11 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return CupertinoPageScaffold(
       child: Container(
-        margin: EdgeInsets.only(
+        margin: const EdgeInsets.only(
           top: 60,
           left: 25,
         ),
-        child: Column(
+        child: const Column(
           children: [
             Row(
               children: [
